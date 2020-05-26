@@ -1,0 +1,23 @@
+{
+  "name": "protractorcucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "test": "protractor ./conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdonthagani/protractorCucumber.git"
+  },
+  "author": "rajashekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdonthagani/protractorCucumber/issues"
+  },
+  "homepage": "https://github.com/rdonthagani/protractorCucumber#readme",
+  "dependencies": {
+    "protractor": "^7.0.0"
+  }
+}
