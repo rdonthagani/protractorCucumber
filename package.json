@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/rdonthagani/protractorCucumber#readme",
   "dependencies": {
-    "protractor": "^7.0.0"
+    "@babel/register": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "cucumber": "^6.0.5",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1"
   }
 }
