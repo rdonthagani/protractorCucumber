@@ -1,7 +1,7 @@
 // An example configuration file.
-/*require('babel-register')({
-  presets: ['es2015']
-})*/
+require('babel-register')({
+  presets: [ 'es2015' ]
+})
 exports.config = {
   baseUrl: 'https://angular.io/',
   directConnect: true,

@@ -1,14 +1,10 @@
-//import { config } from '../../conf.js'
-const conf = require('../../conf')
+import { config } from '../../conf.js'
+import {Before, BeforeAll,AfterAll,After,setDefaultTimeout} from 'cucumber'
+import {browser} from "protractor";
 
-//import {Before, BeforeAll,AfterAll,After} from 'cucumber'
-const {Before, BeforeAll,AfterAll,After} = require('cucumber');
-
-//import {browser} from "protractor";
-
-const {browser} = require('protractor')
+setDefaultTimeout(15000);
 
 BeforeAll(async()=>{
-    await browser.get(conf.config.baseUrl)
+    await browser.get(config.baseUrl)
     }
 )
